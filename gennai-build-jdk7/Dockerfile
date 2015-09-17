@@ -2,7 +2,7 @@ FROM centos:6
 MAINTAINER siniida <sinpukyu@gmail.com>
 
 RUN yum update -y
-RUN yum install -y tar
+RUN yum install -y tar which
 
 # JDK
 RUN curl -O -L -b "oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/7u80-b15/jdk-7u80-linux-x64.rpm
