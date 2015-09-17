@@ -12,6 +12,9 @@ RUN rpm -ivh jdk-7u80-linux-x64.rpm && rm jdk-7u80-linux-x64.rpm
 RUN curl http://ftp.meisei-u.ac.jp/mirror/apache/dist/maven/maven-3/3.3.3/binaries/apache-maven-3.3.3-bin.tar.gz | tar zx -C /opt
 RUN ln -s /opt/apache-maven-3.3.3/bin/mvn /usr/bin/mvn
 
+# JST
+RUN \cp --force /usr/share/zoneinfo/Japan /etc/localtime
+
 ENV JAVA_HOME /usr/java/default
 
 # clean
