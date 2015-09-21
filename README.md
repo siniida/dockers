@@ -3,16 +3,14 @@ my docker containers for Docker Hub.
 
 ## Docker Containers
 
-### gennai-build-jdk7
+### gennai-build
 
 * siniida/gennai-build:latest
-* siniida/gennai-build:jdk7
 
-    [![](https://badge.imagelayers.io/siniida/gennai-build:jdk7.svg)](https://imagelayers.io/?images=siniida/gennai-build:jdk7 'Get your own badge on imagelayers.io')
+    [![](https://badge.imagelayers.io/siniida/gennai-build:latest.svg)](https://imagelayers.io/?images=siniida/gennai-build:latest 'Get your own badge on imagelayers.io')
 
-
-### gennai-build-jdk8
-
-* siniida/gennai-build:jkd8
-
-    [![](https://badge.imagelayers.io/siniida/gennai-build:jdk8.svg)](https://imagelayers.io/?images=siniida/gennai-build:jdk8 'Get your own badge on imagelayers.io')
+    * Oracle JDK
+        * 8u60 (default)
+        * 7u80
+    * Maven 3.3.3
+    * CentOS 6.7
