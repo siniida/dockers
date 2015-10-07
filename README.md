@@ -14,3 +14,9 @@ my docker containers for Docker Hub.
         * 7u80
     * Maven 3.3.3
     * CentOS 6.7
+
+### kafka-mirror
+
+run kafka-mirror-maker.sh
+
+use siniida/kafka:latest
