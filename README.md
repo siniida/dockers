@@ -5,15 +5,9 @@ my docker containers for Docker Hub.
 
 ### gennai-build
 
-* siniida/gennai-build:latest
+mv [siniida/docker-jdk-maven](https://github.com/siniida/docker-jdk-maven).
 
-    [![](https://badge.imagelayers.io/siniida/gennai-build:latest.svg)](https://imagelayers.io/?images=siniida/gennai-build:latest 'Get your own badge on imagelayers.io')
-
-    * Oracle JDK
-        * 8u60 (default)
-        * 7u80
-    * Maven 3.3.3
-    * CentOS 6.7
+DockerHub: [siniida/jdk-maven](https://hub.docker.com/r/siniida/jdk-maven/)
 
 ### kafka-mirror
 
