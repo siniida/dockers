@@ -11,6 +11,6 @@ DockerHub: [siniida/jdk-maven](https://hub.docker.com/r/siniida/jdk-maven/)
 
 ### kafka-mirror
 
-run kafka-mirror-maker.sh
+mv [siniida/docker-kafka-mirrormaker](https://github.com/siniida/docker-kafka-mirrormaker)
 
-use siniida/kafka:latest
+DockerHub: [siniida/kafka-mirror](https://hub.docker.com/r/siniida/kafka-mirror/)
